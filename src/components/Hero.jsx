@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="md:w-full w-80 h-full h-screen lg:h-screen md:h-fit mx-auto my-2 lg:my-0 md:my-2 md:mx-5 lg:mx-auto">
       <div className="grid md:grid-cols-2 grid-cols-1 my-auto items-center gap-10">
-        <div className="md:order-2 flex justify-center border-4 w-full lg:w-full md:w-90 md:mr-10 lg:mr-0 mx-auto border-orange-600 rounded-full h-full  md:mb-0 mb-3">
+        <div className="md:order-2 flex justify-center border-4 w-full lg:w-full md:w-85 md:mr-10 lg:mr-0 mx-auto border-orange-600 rounded-full h-full  md:mb-0 mb-3">
           <img
             src={realkwizera}
             alt=""

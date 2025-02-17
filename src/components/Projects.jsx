@@ -24,7 +24,7 @@ const Projects = () => {
         <div className="flex mx-auto text-center text-blue-600 font-black text-5xl my-4">
           Projects I Worked On
         </div>
-        <div className="overflow-hidden w-10/11">
+        <div className="overflow-hidden md:w-10/11 lg:w-full w-full p-4">
           {isLargeScreen ? (
             <motion.div
               className="flex lg:flex-row flex-col gap-5"
@@ -77,7 +77,7 @@ const Projects = () => {
 };
 
 const ProjectCard = ({ imgSrc, title, description }) => (
-  <div className="flex flex-col mx-auto p-2 shadow-md rounded-xl bg-white w-full gap-2">
+  <div className="flex flex-col mx-auto p-2 shadow-md rounded-xl bg-white w-full gap-2 transition-transform duration-300 hover:scale-120 hover:m-5 hover:p-5">
     <div className="flex justify-center items-center">
       <img
         src={imgSrc}
