@@ -32,7 +32,7 @@ const ContactMe = () => {
   };
 
   return (
-    <div id="contactMe" className="md:w-full w-80 h-full h-fit md:mx-auto mx-5 my-auto">
+    <div id="contactMe" className="md:w-full w-80 h-full h-fit mx-auto my-auto">
       <div className="flex flex-col gap-5 justify-center items-center p-2 mb-2">
         <div className="flex mx-auto text-center text-blue-600 font-black lg:text-4xl text-2xl my-4">
           Contact me through here
