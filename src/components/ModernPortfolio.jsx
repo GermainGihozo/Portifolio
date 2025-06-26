@@ -806,7 +806,7 @@ const ModernPortfolio = () => {
             <div className="mb-6 md:mb-0">
               <div className="flex items-center space-x-2">
                 <div className={`w-3 h-3 rounded-full ${darkMode ? "bg-blue-400" : "bg-blue-600"}`}></div>
-                <span className={`text-xl font-bold ${theme.text}`}>KWIZERA</span>
+                <span className={`text-xl font-bold ${theme.text}`}>REAL KWIZERA</span>
               </div>
               <p className={`mt-2 ${darkMode ? "text-gray-400" : "text-gray-600"}`}>
                 Full Stack Developer & UI/UX Designer
