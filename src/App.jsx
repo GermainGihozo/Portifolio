@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import ModernPortfolio from "./components/ModernPortfolio";
+import HorizontalPortfolio from "./components/HorizontalPortfolio";
 
 function App() {
   return (
     <Router>
       <div className="font-Poppins">
-        <ModernPortfolio />
+        <HorizontalPortfolio />
       </div>
     </Router>
   );
