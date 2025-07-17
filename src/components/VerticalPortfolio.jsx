@@ -772,6 +772,8 @@ const VerticalPortfolio = () => {
                     "AI/ML",
                     "Python",
                     "Next.js",
+                    "Nuxt",
+                    "Vue.js",
                     "TypeScript",
                   ].map((skill, index) => (
                     <div key={index} className="flex items-center">
