@@ -9,9 +9,9 @@ import {
   FaMoon,
 } from "react-icons/fa";
 import hblab from "../assets/Projects/hblab.png";
-import portfolio from "../assets/Projects/portfolio.png";
+import portfolio from "../assets/Projects/Himshop Online.png";
 import spotifyClone from "../assets/Projects/spotify_clone.png";
-import profileImage from "../assets/me.png";
+import profileImage from "../assets/WhatsApp Image 2025-05-30 at 12.15.53_18082a4e.jpg";
 import hhh from "../assets/w-others.jpg";
 import emailjs from "@emailjs/browser";
 import { useRef, useState, useEffect } from "react";
@@ -137,11 +137,11 @@ const VerticalPortfolio = () => {
   const theme = darkMode ? colors.dark : colors.light;
 
   const contactInfo = [
-    { icon: "phone", text: "+250 726 922 589", link: "tel:+250726922589" },
+    { icon: "phone", text: "+250 784 873 039", link: "tel:+250784873039" },
     {
       icon: "envelope",
-      text: "realkwizera1@gmail.com",
-      link: "mailto:realkwizera1@gmail.com",
+      text: "gihozondahayogermain@gmail.com",
+      link: "mailto:gihozondahayogermain@gmail.com",
     },
     { icon: "map-marker-alt", text: "Kigali, Rwanda" },
   ];
@@ -149,19 +149,19 @@ const VerticalPortfolio = () => {
   const socialLinks = [
     {
       icon: <FaLinkedin className="text-lg" />,
-      url: "https://linkedin.com/in/realkwizera",
+      url: "https://linkedin.com",
     },
     {
       icon: <FaGithub className="text-lg" />,
-      url: "https://github.com/realkwizera",
+      url: "https://github.com/GermainGihozo",
     },
     {
       icon: <FaWhatsapp className="text-lg" />,
-      url: "https://wa.me/250726922589",
+      url: "https://wa.me/250784873039",
     },
     {
       icon: <FaInstagram className="text-lg" />,
-      url: "https://instagram.com/realkwizera1",
+      url: "https://www.instagram.com/germain_igihozo?igsh=ZXFxMW9jdHhubHk3",
     },
   ];
 
@@ -179,7 +179,7 @@ const VerticalPortfolio = () => {
               >
                 RK
               </div>
-              <span className="text-lg font-bold">REAL KWIZERA</span>
+              <span className="text-lg font-bold">IGIHOZO Ndahayo Germain</span>
             </div>
             <button
               onClick={toggleTheme}
@@ -218,9 +218,9 @@ const VerticalPortfolio = () => {
                 <div
                   className={`w-10 h-10 rounded-full ${theme.primary} flex items-center justify-center font-bold text-lg`}
                 >
-                  RK
+                  GN
                 </div>
-                <span className="text-xl font-bold">REAL KWIZERA</span>
+                <span className="text-xl font-bold">I.N Germain</span>
               </motion.div>
 
               <div className="space-y-4">
@@ -313,7 +313,7 @@ const VerticalPortfolio = () => {
                   className={`text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight ${theme.text}`}
                 >
                   Hi, I'm{" "}
-                  <span className={theme.primary}>Ferdinand KWIZERA</span>
+                  <span className={theme.primary}>IGIHOZO Ndahayo Germain</span>
                 </h1>
                 <h2
                   className={`text-xl md:text-2xl lg:text-3xl font-semibold mb-4 md:mb-6 ${theme.secondary}`}
@@ -337,7 +337,7 @@ const VerticalPortfolio = () => {
                   View Projects
                 </motion.a>
                 <motion.a
-                  href="https://drive.google.com/file/d/1ddsYE1a0UNJAsd_jN94twyXeF2w0Rq0x/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1GVQeo-TlJR7_rmmnknLGKfRmIACwzk2j/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
@@ -360,7 +360,7 @@ const VerticalPortfolio = () => {
               >
                 <img
                   src={profileImage}
-                  alt="Ferdinand KWIZERA"
+                  alt="IGIHOZO Ndahayo Germain"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -403,14 +403,14 @@ const VerticalPortfolio = () => {
                   >
                     <img
                       src={hhh}
-                      alt="About Ferdinand"
+                      alt="About Germain"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div
                     className={`absolute -bottom-3 -right-3 px-4 py-2 md:px-6 md:py-3 rounded-lg shadow-lg text-sm md:text-base ${theme.button}`}
                   >
-                    <span className="font-bold">3+ Years Experience</span>
+                    <span className="font-bold">2+ Years Experience</span>
                   </div>
                 </div>
               </div>
@@ -443,10 +443,10 @@ const VerticalPortfolio = () => {
                   </p>
                   <div className="grid grid-cols-2 gap-3 md:gap-4 mb-6 md:mb-8">
                     {[
-                      { label: "Name:", value: "Ferdinand KWIZERA" },
-                      { label: "Email:", value: "realkwizera1@gmail.com" },
+                      { label: "Name:", value: "IGIHOZO Ndahayo Germain" },
+                      { label: "Email:", value: "gihozondahayogermain@gmail.com" },
                       { label: "From:", value: "Kigali, Rwanda" },
-                      { label: "Phone:", value: "+250 726 922 589" },
+                      { label: "Phone:", value: "+250 784 873 039" },
                     ].map((item, index) => (
                       <div
                         key={index}
@@ -466,7 +466,7 @@ const VerticalPortfolio = () => {
                     ))}
                   </div>
                   <a
-                    href="https://drive.google.com/file/d/1ddsYE1a0UNJAsd_jN94twyXeF2w0Rq0x/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1GVQeo-TlJR7_rmmnknLGKfRmIACwzk2j/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`inline-block px-6 py-2 md:px-8 md:py-3 rounded-full font-medium text-sm md:text-base ${theme.button} transition-colors`}
@@ -715,6 +715,7 @@ const VerticalPortfolio = () => {
                   {[
                     { name: "Figma", level: 85 },
                     { name: "Photoshop", level: 80 },
+                    { name: "Adobe premiere pro", level: 80 },
                     { name: "Illustrator", level: 70 },
                   ].map((skill, index) => (
                     <div key={index} className="mb-2 md:mb-3 last:mb-0">
@@ -929,16 +930,15 @@ const VerticalPortfolio = () => {
                   <h3
                     className={`text-lg md:text-xl font-semibold mb-2 ${theme.text}`}
                   >
-                    My Personal Portfolio
+                    Himshop Online Trading Poroject
                   </h3>
                   <p
                     className={`text-xs md:text-sm mb-3 md:mb-4 ${theme.secondary}`}
                   >
-                    A modern portfolio showcasing skills and projects with unique
-                    aesthetics and seamless UX.
+                    a project that helps sellers to sell their products,manage sales,reports and manage business branches 
                   </p>
                   <div className="flex flex-wrap gap-1 md:gap-2">
-                    {["React", "Tailwind CSS", "Framer Motion"].map(
+                    {["PHP", "Bootstrap", "Javascrip"].map(
                       (tag, tagIndex) => (
                         <span
                           key={tagIndex}
