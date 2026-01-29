@@ -3,14 +3,17 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "react-scripts build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "node node_modules/react-scripts/scripts/start.js",
-    "test": "react-scripts test"
-  },
+ 
+
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview"
+},
+
+
+
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@iconify/react": "^5.2.0",
