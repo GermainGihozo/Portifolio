@@ -177,7 +177,7 @@ const VerticalPortfolio = () => {
               <div
                 className={`w-8 h-8 rounded-full ${theme.primary} flex items-center justify-center font-bold text-sm`}
               >
-                RK
+                GN
               </div>
               <span className="text-lg font-bold">IGIHOZO Ndahayo Germain</span>
             </div>
