@@ -11,6 +11,8 @@ import {
 import hblab from "../assets/Projects/hblab.png";
 import portfolio from "../assets/Projects/Himshop Online.png";
 import spotifyClone from "../assets/Projects/spotify_clone.png";
+import Smart_saving_track from "../assets/Projects/Smart saving track.png";
+import NiceGarden from "../assets/Projects/Nice Garden Hotel.png";
 import profileImage from "../assets/WhatsApp Image 2025-05-30 at 12.15.53_18082a4e.jpg";
 import hhh from "../assets/w-others.jpg";
 import emailjs from "@emailjs/browser";
@@ -894,6 +896,93 @@ const VerticalPortfolio = () => {
                   >
                     A responsive music streaming interface mirroring Spotify's
                     UX with sleek UI elements.
+                  </p>
+                  <div className="flex flex-wrap gap-1 md:gap-2">
+                    {["React", "Bootstrap"].map((tag, tagIndex) => (
+                      <span
+                        key={tagIndex}
+                        className={`text-xs px-2 py-1 rounded-full ${
+                          darkMode ? "bg-stone-700" : "bg-stone-200"
+                        } ${theme.text}`}
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </motion.div>
+              {/*Smart saving track  */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                viewport={{ once: true }}
+                whileHover={{ y: -5 }}
+                className={`rounded-xl overflow-hidden shadow-lg ${theme.card} ${theme.border} transition-colors duration-300 h-full`}
+              >
+                <div className="h-40 md:h-48 bg-gray-100 flex items-center justify-center overflow-hidden">
+                  <img
+                    src={Smart_saving_track}
+                    alt=" Smart Saving Track"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-4 md:p-6">
+                  <h3
+                    className={`text-lg md:text-xl font-semibold mb-2 ${theme.text}`}
+                  >
+                     Smart Saving Track
+                  </h3>
+                  <p
+                    className={`text-xs md:text-sm mb-3 md:mb-4 ${theme.secondary}`}
+                  >
+                    A cutting-edge platform for HB-Lab members with course
+                    tracking and community engagement features.
+                  </p>
+                  <div className="flex flex-wrap gap-1 md:gap-2">
+                    {["React", "Node.js", "MongoDB", "Tailwind CSS"].map(
+                      (tag, tagIndex) => (
+                        <span
+                          key={tagIndex}
+                          className={`text-xs px-2 py-1 rounded-full ${
+                            darkMode ? "bg-stone-700" : "bg-stone-200"
+                          } ${theme.text}`}
+                        >
+                          {tag}
+                        </span>
+                      )
+                    )}
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Nice Garden */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+                viewport={{ once: true }}
+                whileHover={{ y: -5 }}
+                className={`rounded-xl overflow-hidden shadow-lg ${theme.card} ${theme.border} transition-colors duration-300 h-full`}
+              >
+                <div className="h-40 md:h-48 bg-gray-100 flex items-center justify-center overflow-hidden">
+                  <img
+                    src={NiceGarden}
+                    alt="Spotify Clone"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-4 md:p-6">
+                  <h3
+                    className={`text-lg md:text-xl font-semibold mb-2 ${theme.text}`}
+                  >
+                    Nice Garden's Website
+                  </h3>
+                  <p
+                    className={`text-xs md:text-sm mb-3 md:mb-4 ${theme.secondary}`}
+                  >
+                    A responsive E-commerce website for Nice Garden, showcasing their
+                    Hospitality services and portfolio.
                   </p>
                   <div className="flex flex-wrap gap-1 md:gap-2">
                     {["React", "Bootstrap"].map((tag, tagIndex) => (
