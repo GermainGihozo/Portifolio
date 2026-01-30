@@ -936,8 +936,7 @@ const VerticalPortfolio = () => {
                   <p
                     className={`text-xs md:text-sm mb-3 md:mb-4 ${theme.secondary}`}
                   >
-                    A cutting-edge platform for HB-Lab members with course
-                    tracking and community engagement features.
+                    A system for saving groups to manage their savings,loans,Get reminders for payments, meetings, and important group announcements..
                   </p>
                   <div className="flex flex-wrap gap-1 md:gap-2">
                     {["React", "Node.js", "MongoDB", "Tailwind CSS"].map(
